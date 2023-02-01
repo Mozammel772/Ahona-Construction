@@ -6,7 +6,7 @@ import Header from "./Pages/Navbar/Header";
 
 function App() {
   return (
-    <div className="App">
+    <div className="max-w-7xl mx-auto">
       <Header />
       <Carosule/>
       <Routes>

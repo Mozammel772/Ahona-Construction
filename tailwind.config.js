@@ -13,11 +13,8 @@ module.exports = {
           accent: "#37cdbe",
           neutral: "#3d4451",
           "base-100": "#ffffff",
-          icon:"#FF0000"
         },
       },
-      "white",
-      "cupcake",
     ],
   },
   

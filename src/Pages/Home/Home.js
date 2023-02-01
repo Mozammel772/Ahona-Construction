@@ -1,7 +1,14 @@
 import React from "react";
+import Construction from "../Construction/Construction";
+import OurService from "../OurService/OurService";
 
 const Home = () => {
-  return <h1>Welcome to </h1>;
+  return (
+    <div>
+      <OurService/>
+      <Construction/>
+    </div>
+  );
 };
 
 export default Home;
