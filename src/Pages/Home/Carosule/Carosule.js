@@ -1,6 +1,6 @@
 import React from "react";
-import Carosule2 from "../../asset/carosule2.jpg";
-import Carosule3 from "../../asset/carosule3.jpg";
+import Carosule2 from "../../../asset/carosule2.jpg";
+import Carosule3 from "../../../asset/carosule3.jpg";
 import "./Carosule.css";
 
 const Carosule = () => {

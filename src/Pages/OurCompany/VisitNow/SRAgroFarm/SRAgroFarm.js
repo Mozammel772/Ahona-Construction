@@ -1,13 +1,13 @@
 import React from "react";
-import ahona1 from "../../asset/galary1.jpg";
-import ahona from "../../asset/galary2.jpg";
-import "./AhonaAgroFarm.css";
+import ahona1 from "../../../../asset/galary1.jpg";
+import ahona from "../../../../asset/galary2.jpg";
+import "./SRAgroFarm.css";
 
-const AhonaAgroFarm = () => {
+const SRAgroFarm = () => {
   return (
     <div>
       <h1 className="text-5xl font-bold my-10 text-center">
-        Welcome to <span className="text-[#ff600e]">Ahona</span> Agro Farm
+        Welcome to <span className="text-[#ff600e]">SR</span>Agro Farm
       </h1>
       <div id="AhonaAgroFarm" className="hero min-h-screen ">
         <div className="hero-content flex-col lg:flex-row-reverse">
@@ -82,4 +82,4 @@ const AhonaAgroFarm = () => {
   );
 };
 
-export default AhonaAgroFarm;
+export default SRAgroFarm;

@@ -1,6 +1,6 @@
 import React from "react";
-import ahona1 from "../../asset/galary1.jpg";
-import ahona from "../../asset/galary2.jpg";
+import ahona1 from "../../../../asset/galary1.jpg";
+import ahona from "../../../../asset/galary2.jpg";
 import "./AhonaEnterprize.css";
 
 const AhonaEnterprize = () => {

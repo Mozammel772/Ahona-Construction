@@ -1,15 +1,15 @@
 import React from "react";
-import ahona1 from "../../asset/galary1.jpg";
-import ahona from "../../asset/galary2.jpg";
-import "./SRAgroFarm.css";
+import ahona1 from "../../../../asset/galary1.jpg";
+import ahona from "../../../../asset/galary2.jpg";
+import "./AhonaConstruction.css";
 
-const SRAgroFarm = () => {
+const AhonaConstruction = () => {
   return (
     <div>
       <h1 className="text-5xl font-bold my-10 text-center">
-        Welcome to <span className="text-[#ff600e]">SR</span>Agro Farm
+        Welcome to <span className="text-[#ff600e]">Ahona</span> Construction
       </h1>
-      <div id="AhonaAgroFarm" className="hero min-h-screen ">
+      <div id="ahonaConstruction" className="hero min-h-screen ">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={ahona}
@@ -18,7 +18,7 @@ const SRAgroFarm = () => {
           />
           <div>
             <h1 className="text-3xl font-bold">
-              1. Build <span className="text-[#ff600e]">Enterprise</span> !
+              1. Build <span className="text-[#ff600e]">Construction</span> !
             </h1>
             <p className="py-6 w-full font-medium text-[#727272]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
@@ -32,7 +32,7 @@ const SRAgroFarm = () => {
           </div>
         </div>
       </div>
-      <div id="AhonaAgroFarm" className="hero min-h-screen my-10 ">
+      <div id="ahonaConstruction" className="hero min-h-screen my-10 ">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={ahona1}
@@ -41,7 +41,7 @@ const SRAgroFarm = () => {
           />
           <div>
             <h1 className="text-3xl font-bold">
-              1. Road <span className="text-[#ff600e]">Enterprise</span> !
+              1. Road <span className="text-[#ff600e]">Construction</span> !
             </h1>
             <p className="py-6 w-full font-medium text-[#727272]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
@@ -55,7 +55,7 @@ const SRAgroFarm = () => {
           </div>
         </div>
       </div>
-      <div id="AhonaAgroFarm" className="hero min-h-screen ">
+      <div id="ahonaConstruction" className="hero min-h-screen ">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={ahona}
@@ -64,7 +64,7 @@ const SRAgroFarm = () => {
           />
           <div>
             <h1 className="text-3xl font-bold">
-              1. Build <span className="text-[#ff600e]">Enterprise</span> !
+              1. Build <span className="text-[#ff600e]">Construction</span> !
             </h1>
             <p className="py-6 w-full font-medium text-[#727272]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
@@ -82,4 +82,4 @@ const SRAgroFarm = () => {
   );
 };
 
-export default SRAgroFarm;
+export default AhonaConstruction;

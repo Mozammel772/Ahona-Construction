@@ -1,7 +1,7 @@
 import React from "react";
-import banner1 from "./../../asset/galary1.jpeg";
-import banner2 from "./../../asset/galary1.jpg";
-import banner3 from "./../../asset/galary2.jpeg";
+import banner1 from "../../../asset/galary1.jpeg";
+import banner2 from "../../../asset/galary1.jpg";
+import banner3 from "../../../asset/galary2.jpeg";
 import "./Construction.css";
 
 

@@ -1,11 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ahonaAgro from "../../asset/agero1.jpg";
-import agro from "../../asset/agro.jpg";
-import alm from "../../asset/alm.jpg";
-import construction from "../../asset/download.jpg";
-import international from "../../asset/ship-container.jpg";
-import enterprize from "../../asset/tata2.jpg";
+import ahonaAgro from "../../../asset/agero1.jpg";
+import agro from "../../../asset/agro.jpg";
+import alm from "../../../asset/alm.jpg";
+import construction from "../../../asset/download.jpg";
+import international from "../../../asset/ship-container.jpg";
+import enterprize from "../../../asset/tata2.jpg";
 
 const Company = () => {
   return (

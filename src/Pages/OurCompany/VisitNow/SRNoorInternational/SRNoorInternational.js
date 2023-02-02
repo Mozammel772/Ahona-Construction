@@ -1,15 +1,15 @@
 import React from "react";
-import ahona1 from "../../asset/galary1.jpg";
-import ahona from "../../asset/galary2.jpg";
-import "./ALMBricks.css";
+import ahona1 from "../../../../asset/galary1.jpg";
+import ahona from "../../../../asset/galary2.jpg";
+import "./SRNoorInternational.css";
 
-const ALMBricks = () => {
+const SRNoorInternational = () => {
   return (
     <div>
       <h1 className="text-5xl font-bold my-10 text-center">
-        Welcome to <span className="text-[#ff600e]">ALM</span> Bricks
+        Welcome to <span className="text-[#ff600e]">Ahona</span> SR Noor International
       </h1>
-      <div id="ahonaEnterprize" className="hero min-h-screen ">
+      <div id="srNoorInternational" className="hero min-h-screen ">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={ahona}
@@ -32,7 +32,7 @@ const ALMBricks = () => {
           </div>
         </div>
       </div>
-      <div id="ahonaEnterprize" className="hero min-h-screen my-10 ">
+      <div id="srNoorInternational" className="hero min-h-screen my-10 ">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={ahona1}
@@ -55,7 +55,7 @@ const ALMBricks = () => {
           </div>
         </div>
       </div>
-      <div id="ahonaEnterprize" className="hero min-h-screen ">
+      <div id="srNoorInternational" className="hero min-h-screen ">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
             src={ahona}
@@ -82,4 +82,4 @@ const ALMBricks = () => {
   );
 };
 
-export default ALMBricks;
+export default SRNoorInternational;
