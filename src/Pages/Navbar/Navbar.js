@@ -132,7 +132,7 @@ const Navbar = () => {
               <Link
                 className="navbar-link"
                 onClick={() => setOpenMenu(false)}
-                to="/todayBooking"
+                to="/our-company"
               >
                Our Company
               </Link>

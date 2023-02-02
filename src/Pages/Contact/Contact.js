@@ -9,7 +9,7 @@ const Contact = () => {
   return (
     <div>
       <h1 className=" text-4xl lg:text-6xl text-center my-10">
-        Contact <span className="text-[#ff600e]">With</span> Us
+        Contact<span className="text-[#ff600e]"> With</span> Us
       </h1>
       <div className=" justify-around items-center hero-content flex-col lg:flex-row-reverse">
         <div className="grid grid-cols-2 gap-5">
