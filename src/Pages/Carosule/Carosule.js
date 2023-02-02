@@ -1,21 +1,22 @@
 import React from "react";
 import Carosule2 from "../../asset/carosule2.jpg";
 import Carosule3 from "../../asset/carosule3.jpg";
+import "./Carosule.css";
 
 const Carosule = () => {
   return (
     <div>
       <div class="carousel w-full">
         <div id="slide2" class="carousel-item relative w-full">
-          <img src={Carosule2} class="w-full h-[500px] rounded" alt="Avator" />
+          <img  src={Carosule2} class="w-full h-[500px] rounded image-container" alt="Avator" />
           <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
             <div>
               <a href="#slide1" class="btn btn-circle">
                 ❮
               </a>
             </div>
-            <div class="text-center text-white">
-              <h1 class="text-2xl font-bold">Kamrul Islam</h1>
+            <div class="text-center text-[#ff600e]">
+              <h1 class="text-5xl font-bold">Kamrul Islam</h1>
               <h1 class="text-xl my-3">Web Designer</h1>
               <p class="text[#707070]">
                 Contrary to popular belief, Lorem Ipsum is not simply random

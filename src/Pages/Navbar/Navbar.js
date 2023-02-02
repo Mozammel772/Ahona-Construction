@@ -120,7 +120,7 @@ const Navbar = () => {
               <Link
                 className="navbar-link"
                 onClick={() => setOpenMenu(false)}
-                to="/unpaid"
+                to="/about"
               >
                About
               </Link>
@@ -143,7 +143,7 @@ const Navbar = () => {
               <Link
                 className="navbar-link"
                 onClick={() => setOpenMenu(false)}
-                to="/kichenOrder"
+                to="/contact"
               >
                Contact
               </Link>

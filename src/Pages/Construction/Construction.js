@@ -15,8 +15,8 @@ const Construction = () => {
             <img src={banner1} alt="Shoes" className="rounded-xl" />
           </figure>
           <div className="card-body ">
-            <h2 className="card-title text-2xl">Shoes!</h2>
-            <p className="text-[#727272]">If a dog chews shoes whose shoes does he choose?</p>
+            <h2 className="card-title text-2xl">Worker!</h2>
+            <p className="text-[#727272]">Our Best Worker and make by House</p>
             <div className="card-actions">
               <button className="btnn">Buy Now</button>
             </div>
