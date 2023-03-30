@@ -5,8 +5,8 @@ import "./OurService.css";
 const OurService = () => {
   return (
     <div className="my-10">
-      <h1 className="text-5xl text-[#727272] font-bold text-center my-3">
-        Our <span className="text-[#ff900e]">Work</span>
+      <h1 className="text-5xl font-bold text-center my-3">
+        Our <span className="text-[#ff600e]">Work</span>
       </h1>
       <div className="hero min-h-screen ">
         <div className="hero-content flex-col lg:flex-row-reverse">
@@ -16,7 +16,7 @@ const OurService = () => {
             alt="Avator"
           />
           <div>
-            <h1 className="text-5xl font-bold text-[#707070]">Work <span className="text-[#ff900e]">Now</span> !</h1>
+            <h1 className="text-5xl font-bold">Work <span className="text-[#ff600e]">Now</span> !</h1>
             <p className="py-6 w-full font-medium">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
               asperiores amet voluptas veritatis, pariatur libero saepe suscipit
@@ -26,6 +26,7 @@ const OurService = () => {
               magnam dolore nam itaque necessitatibus assumenda quam a.
             </p>
             <button id="btn">Contact Us</button>
+          
           </div>
         </div>
       </div>

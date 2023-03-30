@@ -7,7 +7,7 @@ const AhonaAgroFarm = () => {
   return (
     <div>
       <h1 className="text-5xl font-bold my-10 text-center">
-        Welcome to <span className="text-[#ff600e]">Ahona</span> Agro Farm
+        Welcome to <span className="text-[#ff600e]"> Ahona</span> Agro Farm
       </h1>
       <div id="AhonaAgroFarm" className="hero min-h-screen ">
         <div className="hero-content flex-col lg:flex-row-reverse">

@@ -1,13 +1,17 @@
 import React from "react";
-import ahona1 from "../../../../asset/galary1.jpg";
-import ahona from "../../../../asset/galary2.jpg";
+import ahona from "../../../../asset/sr1.jpg";
+import ahona1 from "../../../../asset/sr2.jpg";
+import ahona2 from "../../../../asset/sr3.jpg";
+import ahona3 from "../../../../asset/sr4.jpg";
+import ahona4 from "../../../../asset/sr5.png";
+
 import "./SRAgroFarm.css";
 
 const SRAgroFarm = () => {
   return (
     <div>
       <h1 className="text-5xl font-bold my-10 text-center">
-        Welcome to <span className="text-[#ff600e]">SR</span>Agro Farm
+        Welcome to <span className="text-[#ff600e]">SR</span> Agro Farm
       </h1>
       <div id="AhonaAgroFarm" className="hero min-h-screen ">
         <div className="hero-content flex-col lg:flex-row-reverse">
@@ -18,7 +22,7 @@ const SRAgroFarm = () => {
           />
           <div>
             <h1 className="text-3xl font-bold">
-              1. Build <span className="text-[#ff600e]">Enterprise</span> !
+              1. Crow <span className="text-[#ff600e]">Agro</span> From !
             </h1>
             <p className="py-6 w-full font-medium text-[#727272]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
@@ -28,7 +32,6 @@ const SRAgroFarm = () => {
               perferendis hic, alias voluptatum quae voluptatibus deserunt
               magnam dolore nam itaque necessitatibus assumenda quam a.
             </p>
-            <button id="btn">Contact Us</button>
           </div>
         </div>
       </div>
@@ -41,7 +44,7 @@ const SRAgroFarm = () => {
           />
           <div>
             <h1 className="text-3xl font-bold">
-              1. Road <span className="text-[#ff600e]">Enterprise</span> !
+              2. Suger <span className="text-[#ff600e]">Field</span> !
             </h1>
             <p className="py-6 w-full font-medium text-[#727272]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
@@ -51,20 +54,19 @@ const SRAgroFarm = () => {
               perferendis hic, alias voluptatum quae voluptatibus deserunt
               magnam dolore nam itaque necessitatibus assumenda quam a.
             </p>
-            <button id="btn">Contact Us</button>
           </div>
         </div>
       </div>
       <div id="AhonaAgroFarm" className="hero min-h-screen ">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
-            src={ahona}
+            src={ahona2}
             className="w-full lg:h-[300px] rounded-lg shadow-2xl "
             alt="Avator"
           />
           <div>
             <h1 className="text-3xl font-bold">
-              1. Build <span className="text-[#ff600e]">Enterprise</span> !
+              3. Mango <span className="text-[#ff600e]">Garden</span> !
             </h1>
             <p className="py-6 w-full font-medium text-[#727272]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
@@ -74,7 +76,50 @@ const SRAgroFarm = () => {
               perferendis hic, alias voluptatum quae voluptatibus deserunt
               magnam dolore nam itaque necessitatibus assumenda quam a.
             </p>
-            <button id="btn">Contact Us</button>
+          </div>
+        </div>
+      </div>
+      <div id="AhonaAgroFarm" className="hero min-h-screen ">
+        <div className="hero-content flex-col lg:flex-row-reverse">
+          <img
+            src={ahona3}
+            className="w-full lg:h-[300px] rounded-lg shadow-2xl "
+            alt="Avator"
+          />
+          <div>
+            <h1 className="text-3xl font-bold">
+              4. Nepiyar<span className="text-[#ff600e]"> gas khet </span> !
+            </h1>
+            <p className="py-6 w-full font-medium text-[#727272]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+              asperiores amet voluptas veritatis, pariatur libero saepe suscipit
+              assumenda animi totam architecto laborum! Repudiandae eligendi
+              earum nulla deserunt autem, totam hic fugit tenetur? Expedita, quo
+              perferendis hic, alias voluptatum quae voluptatibus deserunt
+              magnam dolore nam itaque necessitatibus assumenda quam a.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div id="AhonaAgroFarm" className="hero min-h-screen ">
+        <div className="hero-content flex-col lg:flex-row-reverse">
+          <img
+            src={ahona4}
+            className="w-full lg:h-[300px] rounded-lg shadow-2xl "
+            alt="Avator"
+          />
+          <div>
+            <h1 className="text-3xl font-bold">
+              5. Mango <span className="text-[#ff600e]">Garden</span> !
+            </h1>
+            <p className="py-6 w-full font-medium text-[#727272]">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque
+              asperiores amet voluptas veritatis, pariatur libero saepe suscipit
+              assumenda animi totam architecto laborum! Repudiandae eligendi
+              earum nulla deserunt autem, totam hic fugit tenetur? Expedita, quo
+              perferendis hic, alias voluptatum quae voluptatibus deserunt
+              magnam dolore nam itaque necessitatibus assumenda quam a.
+            </p>
           </div>
         </div>
       </div>

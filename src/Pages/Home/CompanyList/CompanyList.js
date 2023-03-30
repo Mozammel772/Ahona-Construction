@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import ahonaAgro from "../../../asset/agero1.jpg";
 import agro from "../../../asset/agro.jpg";
-import alm from "../../../asset/alm.jpg";
 import construction from "../../../asset/download.jpg";
 import international from "../../../asset/ship-container.jpg";
 import enterprize from "../../../asset/tata2.jpg";
+import alm from "../../../asset/vata.jpg";
 import "./CompanyList.css";
 
 const CompanyList = () => {
@@ -27,7 +28,7 @@ const CompanyList = () => {
           </figure>
           <div className="card-body ">
             <h2 className="card-title text-2xl">
-              SR Noor International <span className="text-[#ff600e]">!</span>
+              SR Noora International <span className="text-[#ff600e]">!</span>
             </h2>
             <p className="text-[#727272]">
               The Import Registration Certificate (IRC) of Bangladesh is a
@@ -36,7 +37,7 @@ const CompanyList = () => {
               Certificate (ERC).
             </p>
             <div className="card-actions">
-              <button className="btnn">Contact Us</button>
+              <Link className="btnn" to="/contact">Contact Us</Link>
             </div>
           </div>
         </div>
@@ -55,7 +56,7 @@ const CompanyList = () => {
               plant
             </p>
             <div className="card-actions">
-              <button className="btnn">Contact Now</button>
+            <Link className="btnn" to="/contact">Contact Us</Link>
             </div>
           </div>
         </div>
@@ -73,7 +74,7 @@ const CompanyList = () => {
               software program used to create or digitize it.
             </p>
             <div className="card-actions">
-              <button className="btnn">Contact Us</button>
+            <Link className="btnn" to="/contact">Contact Us</Link>
             </div>
           </div>
         </div>
@@ -92,7 +93,7 @@ const CompanyList = () => {
               plant.
             </p>
             <div className="card-actions">
-              <button className="btnn">Contact Us</button>
+            <Link className="btnn" to="/contact">Contact Us</Link>
             </div>
           </div>
         </div>
@@ -114,7 +115,7 @@ const CompanyList = () => {
               an individual who takes a risk to start a business.
             </p>
             <div className="card-actions">
-              <button className="btnn">Contact Us</button>
+            <Link className="btnn" to="/contact">Contact Us</Link>
             </div>
           </div>
         </div>
@@ -136,7 +137,7 @@ const CompanyList = () => {
               constructio and Old French construction. To construct is the verb
             </p>
             <div className="card-actions">
-              <button className="btnn">Contact Us</button>
+            <Link className="btnn" to="/contact">Contact Us</Link>
             </div>
           </div>
         </div>

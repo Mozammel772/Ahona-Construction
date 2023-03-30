@@ -43,7 +43,12 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <div></div>
       </footer>
+      <div className="footer footer-center p-4 bg-blue-300 text-base-content mt-5">
+        <p>Copyright © 2023 - All right reserved by Ahona Industries Ltd</p>
+        <p>Power By Developer Team : <a href="https://jarasoftit.com/">Jara-Soft-IT</a></p>
+      </div>
     </div>
   );
 };

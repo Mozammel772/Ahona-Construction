@@ -1,4 +1,6 @@
 import React from "react";
+import Carosule4 from "../../../asset/bg2.jpg";
+import Carosule5 from "../../../asset/bg3.jpeg";
 import Carosule2 from "../../../asset/carosule2.jpg";
 import Carosule3 from "../../../asset/carosule3.jpg";
 import "./Carosule.css";
@@ -8,24 +10,34 @@ const Carosule = () => {
     <div>
       <div class="carousel w-full">
         <div id="slide2" class="carousel-item relative w-full">
-          <img  src={Carosule2} class="w-full h-[500px] rounded image-container" alt="Avator" />
+          <img
+            src={Carosule4}
+            class="w-full h-[500px] rounded image-container"
+            alt="Avator"
+          />
           <div class="absolute flex justify-between items-center transform -translate-y-1/2 left-5 right-5 top-1/2">
             <div>
-              <a href="#slide1" class="btn btn-circle">
+              <a href="#slide2" class="btn btn-circle">
                 ❮
               </a>
             </div>
-            <div class="text-center text-[#ff600e]">
-              <h1 class="text-5xl font-bold">Kamrul Islam</h1>
-              <h1 class="text-xl my-3">Web Designer</h1>
-              <p class="text[#707070]">
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It has roots in a piece of classical Latin literature from
-                45 BC, making it over 2000 years old. Richard McClintock, a
-                Latin professor at Hampden-Sydney College in Virginia, looked up
-                one of the more obscure Latin words, consectetur.
-              </p>
+
+            <div>
+              <a href="#slide2" class="btn btn-circle">
+                ❯
+              </a>
             </div>
+          </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+          <img src={Carosule5} class="w-full h-[500px] rounded" alt="Avator" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
+            <div>
+              <a href="#slide3" class="btn btn-circle">
+                ❮
+              </a>
+            </div>
+
             <div>
               <a href="#slide3" class="btn btn-circle">
                 ❯
@@ -33,27 +45,33 @@ const Carosule = () => {
             </div>
           </div>
         </div>
-        <div id="slide3" class="carousel-item relative w-full">
-          <img src={Carosule3} class="w-full h-[500px] rounded" alt="Avator" />
+        <div id="slide4" class="carousel-item relative w-full">
+          <img src={Carosule2} class="w-full h-[500px] rounded" alt="Avator" />
           <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
             <div>
-              <a href="#slide2" class="btn btn-circle">
+              <a href="#slide4" class="btn btn-circle">
                 ❮
               </a>
             </div>
-            <div class="text-center text-white">
-              <h1 class="text-2xl font-bold">Mozammel Hosen</h1>
-              <h1 class="text-xl my-3">Web Development</h1>
-              <p class="text[#707070]">
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It has roots in a piece of classical Latin literature from
-                45 BC, making it over 2000 years old. Richard McClintock, a
-                Latin professor at Hampden-Sydney College in Virginia, looked up
-                one of the more obscure Latin words, consectetur.
-              </p>
-            </div>
+
             <div>
               <a href="#slide4" class="btn btn-circle">
+                ❯
+              </a>
+            </div>
+          </div>
+        </div>
+        <div id="slide5" class="carousel-item relative w-full">
+          <img src={Carosule3} class="w-full h-[500px] rounded" alt="Avator" />
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2 items-center">
+            <div>
+              <a href="#slide5" class="btn btn-circle">
+                ❮
+              </a>
+            </div>
+
+            <div>
+              <a href="#slide5" class="btn btn-circle">
                 ❯
               </a>
             </div>
